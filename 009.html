@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            text-align: center;
+            margin: 0 auto;
+            background-color: rgb(132, 160, 132);
+        }
+
+        .container {
+
+        }
+
+        iframe {
+            display: block;
+            width: 95%;
+            height: calc(100% - 20px);
+            margin: 10px auto;
+            border: none;
+            background-color: black;
+        }
+
+        .menu {
+            margin: 25px auto;
+            width: 95%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .home {
+            box-shadow: 5px 5px black;
+        }
+
+        .halina {
+            box-shadow: 5px 5px black;
+        }
+    
+        .jan {
+            box-shadow: 5px 5px black;
+        }
+    
+        .allan {
+            box-shadow: 5px 5px black;  
+        }
+    
+        .stephen {
+            box-shadow: 5px 5px black;
+        }
+
+        .blok {
+            background-color: rgb(68, 99, 64);
+            border-radius: 25px;
+            padding: 10px;
+            color: cornsilk;
+        }
+
+        .green1:hover {
+            background-color: rgb(93, 136, 87);
+            transition-duration: 0.5s;
+        }
+    
+        .green2:hover {
+            background-color: rgb(112, 165, 105);
+            transition-duration: 0.5s;
+        }
+    
+        .green3:hover {
+            background-color: rgb(135, 197, 126);
+            transition-duration: 0.5s;
+        }
+    
+        .green4:hover {
+            background-color: rgb(155, 224, 145);
+            transition-duration: 0.5s;
+        }
+    
+        .green5:hover {
+            background-color: rgb(173, 248, 161);
+            transition-duration: 0.5s;
+        }
+
+        @media only screen and (min-width: 600px) {
+            body { 
+                font-size: 16px;
+            }
+
+            li { 
+                float: left;
+            }
+
+            li:not(:first-of-type) {
+                border-top: none;
+                border-left: 2px solid  black;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="celek">
+        <div class="menu">
+            <a href="" target="iframe-1">
+                <div class="home blok green1"><p>HOME</p></div>
+            </a>
+            <a href="https://cs.wikipedia.org/wiki/Halina_Pawlowská" target="iframe-1">
+                <div class="halina blok green2" href=""><p>PAWLOWSKÁ</p></div>
+            </a>
+            <a href="https://cs.wikipedia.org/wiki/Jan_Neruda" target="iframe-1">
+                <div class="jan blok green3" href=""><p>NERUDA</p></div>
+            </a>
+            <a href="https://cs.wikipedia.org/wiki/Edgar_Allan_Poe" target="iframe-1">
+                <div class="allan blok green4" href=""><p>EDGAR POE</p></div>
+            </a>
+            <a href="https://cs.wikipedia.org/wiki/Stephen_King" target="iframe-1">
+                <div class="stephen blok green5" href=""><p>KING</p></div>
+            </a>
+        </div>
+        <iframe name="iframe-1"></iframe>
+    </div>
+</body>
+</html>
